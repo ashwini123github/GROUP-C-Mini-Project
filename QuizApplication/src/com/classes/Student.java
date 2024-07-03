@@ -1,7 +1,7 @@
 package com.classes;
 
 public class Student {
-	
+
 	private String firstName;
 	private String lastName;
 	private String username;
@@ -9,6 +9,18 @@ public class Student {
 	private String city;
 	private String emailId;
 	private String mobileNumber;
+
+	public Student(String firstName, String lastName, String username, String password, String city, String emailId,
+			String mobileNumber) {
+
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.username = username;
+		this.password = password;
+		this.city = city;
+		this.emailId = emailId;
+		this.mobileNumber = mobileNumber;
+	}
 
 	public String getFirstName() {
 		return firstName;

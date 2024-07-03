@@ -2,9 +2,9 @@ package com.interfaces;
 
 public interface UserOperations {
 	
-	void studentRegistration();
+    public void studentRegistration(String firstName,String lastName,String userName,String password,String city,String emailId, String mobileNumber);
 	
-	void studentLogin();
+	boolean studentLogin();
 	
 	void qustionsList();
 	
